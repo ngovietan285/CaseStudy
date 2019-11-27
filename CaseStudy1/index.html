@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shoot The Fly</title>
+</head>
+<body>
+<img alt="background" src="./img/background.jpg" style="position: absolute;display: none">
+<audio autoplay id="myAudio" loop>
+    <source src="audio/background.mp3" type="audio/mp3">
+    <source src="audio/bullet.mp3" type="audio/mp3">
+</audio>
+<iframe allow="autoplay" id="audiosourcename" src="audio/silence.mp3" style="display: none"></iframe>
+<a href="JS/" id="audioPlay" target="audiosourcename" style="display: none"></a>
+<img alt="plane" id="imgPlane" src="img/plane.png" style="display: none ">
+<img alt="heart" id="imgHeart" src="img/heart.png" style="display: none">
+<img alt="bullet" id="imgBullet" src="img/bulletLove.png" style="display: none">
+<canvas height="600px" id="myCanvas" style="border: 1px solid #000000" width="952px"></canvas>
+<br>
+<button onclick="restart()">Chơi Lại</button>
+<button onclick="startGame()">Bắt Đầu</button>
+<p>Bấm <b>'Enter'</b> để bắt đầu chơi.</p>
+<p>Bấm <b>'Phím cách'</b> để bắn.</p>
+<p>Bấm <b>'phím mũi tên'</b> để di chuyển</p>
+    <script src="./JS/Const.js"></script>
+    <script src="./JS/BackGround.js"></script>
+    <script src="./JS/Bullet.js"></script>
+    <script src="./JS/Plane.js"></script>
+    <script src="./JS/Heart.js"></script>
+    <script src="./JS/gameBoard.js"></script>
+    <script src="./JS/Main.js"></script>
+</body>
+</html>

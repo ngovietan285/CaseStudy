@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The new Skyforce</title>
+    <script src="test.js"></script>
+</head>
+<body>
+<img src="images/background1.png" style="position: absolute;display: none">
+<iframe src="sounds/silence.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
+<audio id="player" autoplay loop>
+    <source src="sounds/bgSound.mp3" type="audio/mp3">
+</audio>
+<img id="imgPlane" src="images/plane.png" style="display: none">
+<img id="imgEnemy" src="images/enemy.png" style="display: none">
+<img id="imgBullet" src="images/bullet.png" style="display: none">
+<canvas id="gameBoard" width="800" height="500" style="border: 1px solid #000000"></canvas>
+<br>
+<button onclick="restart()">Chơi lại</button>
+<button onclick="startGame()">Bắt đầu</button>
+<p>Bấm <b>'Enter'</b> để bắt đầu chơi. Bấm <b>'Phím cách'</b> để bắn. Bấm <b>'phím mũi tên'</b> để di chuyển.Bấm phím <b>'R'</b> để chơi lại</p>
+
+<script src="const.js"></script>
+<script src="background.js"></script>
+<script src="bullet.js"></script>
+<script src="plane.js"></script>
+<script src="enemy.js"></script>
+<script src="gameBoard.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
