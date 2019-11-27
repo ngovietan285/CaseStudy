@@ -18,6 +18,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\Administrator\Desktop\CaseStudy1\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1U6U2ryoWAvECj2Sowyc5q1CPpt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -29,7 +36,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -74,7 +84,13 @@
       <workItem from="1574780783362" duration="435000" />
       <workItem from="1574820931971" duration="3952000" />
       <workItem from="1574824969153" duration="1312000" />
-      <workItem from="1574826330246" duration="47000" />
+      <workItem from="1574826330246" duration="186000" />
+      <workItem from="1574826843810" duration="344000" />
+      <workItem from="1574827230559" duration="27000" />
+      <workItem from="1574827270334" duration="374000" />
+      <workItem from="1574827873040" duration="153000" />
+      <workItem from="1574828099936" duration="1142000" />
+      <workItem from="1574833549853" duration="2937000" />
     </task>
     <servers />
   </component>
@@ -85,6 +101,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="180" key="#Notifications" timestamp="1574828959678">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="180" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1574828959678" />
     <state x="414" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1574771955931">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -97,9 +117,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1574781219050" />
-    <state x="471" y="151" key="SettingsEditor" timestamp="1574826219393">
+    <state x="757" y="127" key="SettingsEditor" timestamp="1574833565629">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="471" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1574826219393" />
+    <state x="757" y="127" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1574833565629" />
   </component>
 </project>

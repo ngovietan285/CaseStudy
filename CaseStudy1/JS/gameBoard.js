@@ -52,7 +52,11 @@ let GameBoard = function () {
         let rightBullet = bullet.xPosition + bullet.width;
         let topBullet = bullet.yPosition;
         let bottomBullet = bullet.yPosition + bullet.height;
-        return !(rightHeart < leftBullet || bottomHeart < topBullet || leftHeart > rightBullet || topHeart > bottomBullet);
+        if (rightHeart < leftBullet || bottomHeart < topBullet || leftHeart > rightBullet || topHeart > bottomBullet) {
+            return false;
+        } else {
+            return true;
+        }
     };
 
     this.checkCrash = function () {
@@ -62,7 +66,7 @@ let GameBoard = function () {
                     hearts[i].isLive = false;
                 }
             }
-            if (!hearts[i].isLive) {
+            if (!hearts[i].isLive) { // Xử lý tính điểm.
                 hearts.splice(i, 1);
                 this.score++;
             }
