@@ -38,7 +38,7 @@ let Plane = function (xPosition, yPosition, width, height, speed, isMoveLeft, is
                 let bullet = new Bullet(this.xPosition + this.width / 2 - BULLET_WIDTH / 2, this.yPosition, BULLET_WIDTH, BULLET_HEIGHT);
                 this.bullets.push(bullet);
                 let sound = new Audio();
-                sound.src = "sound/bullet.mp3";
+                sound.src = "audio/bullet.mp3";
                 sound.play();
                 this.reloadCount = 0;
             }
