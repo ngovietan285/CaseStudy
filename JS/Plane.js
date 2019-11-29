@@ -7,7 +7,7 @@ let Plane = function (xPosition, yPosition, width, height, speed, isMoveLeft, is
     this.isMoveLeft = isMoveLeft;
     this.isMoveRight = isMoveRight;
     this.isShoot = isShoot;
-    this.reload = 15;
+    this.reload = 5;
     this.reloadCount = 0;
     this.bullets = [];
 

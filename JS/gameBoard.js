@@ -37,9 +37,10 @@ let GameBoard = function () {
         ctx.beginPath();
         ctx.font = "50px arial";
         ctx.fillStyle = 'red';
-        ctx.fillText('Ấn "ENTER" Để Bắt Đầu ', 100, 150);
-        ctx.fillText('Ấn "SPACE" Để Bắn', 100, 250);
-        ctx.fillText('Ấn "R" Để Chơi Lại', 100, 350);
+        ctx.fillText('LOVE WILL CHANGE EVERYTHING', 100, 50);
+        ctx.fillText('Ấn "ENTER" Để Bắt Đầu ', 180, 150);
+        ctx.fillText('Ấn "SPACE" Để Bắn', 180, 250);
+        ctx.fillText('Ấn "R" Để Chơi Lại', 180, 350);
         ctx.closePath();
     };
 
